@@ -14,6 +14,11 @@
 		2938C5622181CEA9007952F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2938C5602181CEA9007952F9 /* LaunchScreen.storyboard */; };
 		2938C56D2181CEA9007952F9 /* oopConcepts_ClearenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2938C56C2181CEA9007952F9 /* oopConcepts_ClearenceTests.swift */; };
 		2938C5782181CEA9007952F9 /* oopConcepts_ClearenceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2938C5772181CEA9007952F9 /* oopConcepts_ClearenceUITests.swift */; };
+		2938C5882181DA87007952F9 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2938C5872181DA87007952F9 /* Login.swift */; };
+		2938C58B2181DB91007952F9 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2938C58A2181DB91007952F9 /* Preferences.swift */; };
+		2938C58D2181F189007952F9 /* RegistrationViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2938C58C2181F189007952F9 /* RegistrationViewC.swift */; };
+		29CADE8B2186D2AE007C0E05 /* DeleteProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CADE8A2186D2AE007C0E05 /* DeleteProfile.swift */; };
+		29CADE8E2186DDD3007C0E05 /* HelperClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CADE8D2186DDD3007C0E05 /* HelperClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		2938C5732181CEA9007952F9 /* oopConcepts ClearenceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "oopConcepts ClearenceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2938C5772181CEA9007952F9 /* oopConcepts_ClearenceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oopConcepts_ClearenceUITests.swift; sourceTree = "<group>"; };
 		2938C5792181CEA9007952F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2938C5872181DA87007952F9 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		2938C58A2181DB91007952F9 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		2938C58C2181F189007952F9 /* RegistrationViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewC.swift; sourceTree = "<group>"; };
+		29CADE8A2186D2AE007C0E05 /* DeleteProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteProfile.swift; sourceTree = "<group>"; };
+		29CADE8D2186DDD3007C0E05 /* HelperClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,11 @@
 			children = (
 				2938C5572181CEA7007952F9 /* AppDelegate.swift */,
 				2938C5592181CEA7007952F9 /* ViewController.swift */,
+				2938C58C2181F189007952F9 /* RegistrationViewC.swift */,
+				2938C5872181DA87007952F9 /* Login.swift */,
+				29CADE8A2186D2AE007C0E05 /* DeleteProfile.swift */,
+				2938C58A2181DB91007952F9 /* Preferences.swift */,
+				29CADE8D2186DDD3007C0E05 /* HelperClass.swift */,
 				2938C55B2181CEA7007952F9 /* Main.storyboard */,
 				2938C55E2181CEA9007952F9 /* Assets.xcassets */,
 				2938C5602181CEA9007952F9 /* LaunchScreen.storyboard */,
@@ -256,7 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29CADE8B2186D2AE007C0E05 /* DeleteProfile.swift in Sources */,
+				29CADE8E2186DDD3007C0E05 /* HelperClass.swift in Sources */,
+				2938C58D2181F189007952F9 /* RegistrationViewC.swift in Sources */,
+				2938C5882181DA87007952F9 /* Login.swift in Sources */,
 				2938C55A2181CEA7007952F9 /* ViewController.swift in Sources */,
+				2938C58B2181DB91007952F9 /* Preferences.swift in Sources */,
 				2938C5582181CEA7007952F9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
